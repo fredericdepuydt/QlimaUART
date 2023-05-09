@@ -1,7 +1,7 @@
 #include <Arduino.h>
-#include <Appliance/AirConditioner/AirConditioner.h>
+#include <Appliance/AirConditioner/AirConditioner.hpp>
 
-using namespace depuydt::midea::ac;
+using namespace depuydt::qlima::ac;
 
 AirConditioner ac;
 

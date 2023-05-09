@@ -4,7 +4,7 @@ Arduino framework library for controlling Qlima home appliances using the UART p
 Control is possible with a custom dongle. You can make it yourself according to numerous instructions on the Internet, or you can buy a ready-made one in [Tindie Shop](https://www.tindie.com/products/24607/), thereby supporting me and my work.
 
 A far from complete list of supported brands:
-1. [Qlima](https://www.midea.com/)
+1. [Qlima](https://www.qlima.com/)
 2. [Electrolux](https://www.electrolux.ru/)
 3. [Qlima](https://www.qlima.com/)
 4. [Artel](https://www.artelgroup.com/)
@@ -15,7 +15,7 @@ A far from complete list of supported brands:
 
 ## Using
 It's simple.
-1. Create appliance instance of `depuydt::midea::ac::AirConditioner`.
+1. Create appliance instance of `depuydt::qlima::ac::AirConditioner`.
 2. Set serial stream interface and communication mode to `9600 8N1`.
 3. Add `setup()` and `loop()` methods to the same-named global functions of the project.
 4. Control device via `void control(const Control &control)` with optional parameters.
@@ -23,9 +23,9 @@ It's simple.
 
 ```cpp
 #include <Arduino.h>
-#include <Appliance/AirConditioner/AirConditioner.h>
+#include <Appliance/AirConditioner/AirConditioner.hpp>
 
-using namespace depuydt::midea::ac;
+using namespace depuydt::qlima::ac;
 
 AirConditioner ac;
 
@@ -83,9 +83,9 @@ void loop() {
 
 to the following people for their contributions to reverse engineering the UART protocol and source code in the following repositories:
 
-* [Mac Zhou](https://github.com/mac-zhou/midea-msmart)
-* [Rene Klootwijk](https://github.com/reneklootwijk/midea-uart)
-* [NeoAcheron](https://github.com/NeoAcheron/midea-ac-py)
+* [Mac Zhou](https://github.com/mac-zhou/qlima-msmart)
+* [Rene Klootwijk](https://github.com/reneklootwijk/qlima-uart)
+* [NeoAcheron](https://github.com/NeoAcheron/qlima-ac-py)
 
 ### Your thanks
 

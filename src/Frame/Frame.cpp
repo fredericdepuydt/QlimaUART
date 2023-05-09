@@ -1,7 +1,7 @@
 #include "Frame/Frame.hpp"
 
 namespace depuydt {
-namespace midea {
+namespace qlima {
 
 void Frame::setData(const FrameData &data) {
   this->m_trimData();
@@ -36,5 +36,5 @@ String Frame::toString() const {
   return ret;
 }
 
-}  // namespace midea
+}  // namespace qlima
 }  // namespace depuydt

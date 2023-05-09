@@ -2,7 +2,7 @@
 #include <IPAddress.h>
 
 namespace depuydt {
-namespace midea {
+namespace qlima {
 
 uint8_t FrameData::m_id;
 
@@ -38,5 +38,5 @@ void NetworkNotifyData::setIP(const IPAddress &ip) {
   this->m_data[6] = ip[0];
 }
 
-}  // namespace midea
+}  // namespace qlima
 }  // namespace depuydt

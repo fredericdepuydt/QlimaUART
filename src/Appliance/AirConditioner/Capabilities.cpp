@@ -3,7 +3,7 @@
 #include "Helpers/Log.hpp"
 
 namespace depuydt {
-namespace midea {
+namespace qlima {
 namespace ac {
 
 static const char *TAG = "Capabilities";
@@ -323,5 +323,5 @@ void Capabilities::dump() const {
 }
 
 }  // namespace ac
-}  // namespace midea
+}  // namespace qlima
 }  // namespace depuydt

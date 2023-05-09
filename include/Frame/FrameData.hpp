@@ -5,7 +5,7 @@
 class IPAddress;
 
 namespace depuydt {
-namespace midea {
+namespace qlima {
 
 class FrameData {
  public:
@@ -51,5 +51,5 @@ class NetworkNotifyData : public FrameData {
   void setIP(const IPAddress &ip);
 };
 
-}  // namespace midea
+}  // namespace qlima
 }  // namespace depuydt

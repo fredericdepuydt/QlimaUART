@@ -1,7 +1,7 @@
 #include "Appliance/AirConditioner/StatusData.hpp"
 
 namespace depuydt {
-namespace midea {
+namespace qlima {
 namespace ac {
 
 float StatusData::getTargetTemp() const {
@@ -98,5 +98,5 @@ float StatusData::getPowerUsage() const {
 }
 
 }  // namespace ac
-}  // namespace midea
+}  // namespace qlima
 }  // namespace depuydt

@@ -7,7 +7,7 @@
 #endif
 
 namespace depuydt {
-namespace midea {
+namespace qlima {
 
 static const char *TAG = "ApplianceBase";
 
@@ -184,5 +184,5 @@ void ApplianceBase::setBeeper(bool value) {
   this->m_beeper = value;
 }
 
-} // namespace midea
+} // namespace qlima
 } // namespace depuydt

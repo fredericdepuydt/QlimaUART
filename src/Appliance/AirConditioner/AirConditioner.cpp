@@ -3,7 +3,7 @@
 #include "Helpers/Log.hpp"
 
 namespace depuydt {
-namespace midea {
+namespace qlima {
 namespace ac {
 
 static const char *TAG = "AirConditioner";
@@ -224,5 +224,5 @@ ResponseStatus AirConditioner::m_readStatus(FrameData data) {
 }
 
 }  // namespace ac
-}  // namespace midea
+}  // namespace qlima
 }  // namespace depuydt
