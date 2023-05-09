@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#include "Helpers/Timer.h"
+#include "Helpers/Timer.hpp"
 
 namespace depuydt {
 

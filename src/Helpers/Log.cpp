@@ -1,6 +1,6 @@
-#include "Helpers/Log.h"
-#include "Helpers/Logger.h"
-#include "Appliance/ApplianceBase.h"
+#include "Helpers/Log.hpp"
+#include "Helpers/Logger.hpp"
+#include "Appliance/ApplianceBase.hpp"
 
 namespace depuydt {
 

@@ -1,6 +1,6 @@
-#include "Appliance/AirConditioner/Capabilities.h"
-#include "Frame/FrameData.h"
-#include "Helpers/Log.h"
+#include "Appliance/AirConditioner/Capabilities.hpp"
+#include "Frame/FrameData.hpp"
+#include "Helpers/Log.hpp"
 
 namespace depuydt {
 namespace midea {
