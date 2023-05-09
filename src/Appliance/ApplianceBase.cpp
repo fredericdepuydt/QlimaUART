@@ -6,7 +6,7 @@
 #include <ESP8266WiFi.h>
 #endif
 
-namespace dudanov {
+namespace depuydt {
 namespace midea {
 
 static const char *TAG = "ApplianceBase";
@@ -185,4 +185,4 @@ void ApplianceBase::setBeeper(bool value) {
 }
 
 } // namespace midea
-} // namespace dudanov
+} // namespace depuydt

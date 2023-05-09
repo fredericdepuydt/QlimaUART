@@ -1,28 +1,28 @@
 #pragma once
 #include <Arduino.h>
-#include "Frame/FrameData.h"
+#include "Frame/FrameData.hpp"
 
-namespace dudanov {
-namespace midea {
+namespace depuydt {
+namespace qlima {
 namespace ac {
 
-/// Enum for all modes a Midea device can be in.
+/// Enum for all modes a Qlima device can be in.
 enum Mode : uint8_t {
   ///
   MODE_OFF,
-  /// The Midea device is set to automatically change the heating/cooling cycle
+  /// The Qlima device is set to automatically change the heating/cooling cycle
   MODE_AUTO,
-  /// The Midea device is manually set to cool mode (not in auto mode!)
+  /// The Qlima device is manually set to cool mode (not in auto mode!)
   MODE_COOL,
-  /// The Midea device is manually set to dry mode
+  /// The Qlima device is manually set to dry mode
   MODE_DRY,
-  /// The Midea device is manually set to heat mode (not in auto mode!)
+  /// The Qlima device is manually set to heat mode (not in auto mode!)
   MODE_HEAT,
-  /// The Midea device is manually set to fan only mode
+  /// The Qlima device is manually set to fan only mode
   MODE_FAN_ONLY,
 };
 
-/// Enum for all modes a Midea fan can be in
+/// Enum for all modes a Qlima fan can be in
 enum FanMode : uint8_t {
   /// The fan mode is set to Auto
   FAN_AUTO = 102,
@@ -38,7 +38,7 @@ enum FanMode : uint8_t {
   FAN_TURBO = 100,
 };
 
-/// Enum for all modes a Midea swing can be in
+/// Enum for all modes a Qlima swing can be in
 enum SwingMode : uint8_t {
   /// The sing mode is set to Off
   SWING_OFF = 0b0000,
@@ -50,7 +50,7 @@ enum SwingMode : uint8_t {
   SWING_HORIZONTAL = 0b0011,
 };
 
-/// Enum for all presets a Midea can be in
+/// Enum for all presets a Qlima can be in
 enum Preset : uint8_t {
   /// None preset
   PRESET_NONE,
@@ -169,5 +169,5 @@ class GetCapabilitiesSecondData : public FrameData {
 };
 
 }  // namespace ac
-}  // namespace midea
-}  // namespace dudanov
+}  // namespace qlima
+}  // namespace depuydt

@@ -1,6 +1,6 @@
 #include "Frame/Frame.h"
 
-namespace dudanov {
+namespace depuydt {
 namespace midea {
 
 void Frame::setData(const FrameData &data) {
@@ -37,4 +37,4 @@ String Frame::toString() const {
 }
 
 }  // namespace midea
-}  // namespace dudanov
+}  // namespace depuydt

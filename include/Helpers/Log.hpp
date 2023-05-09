@@ -1,7 +1,7 @@
 #pragma once
 #include <Arduino.h>
 
-namespace dudanov {
+namespace depuydt {
 
 #define LOG_LEVEL_NONE 0
 #define LOG_LEVEL_ERROR 1
@@ -72,4 +72,4 @@ void sv_log_printf_(int level, const char *tag, int line, const __FlashStringHel
 #define LOG_V(tag, ...) sv_log_v(tag, __VA_ARGS__)
 #define LOG_VV(tag, ...) sv_log_vv(tag, __VA_ARGS__)
 
-}  // namespace dudanov
+}  // namespace depuydt

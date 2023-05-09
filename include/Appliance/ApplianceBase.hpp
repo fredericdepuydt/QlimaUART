@@ -1,13 +1,13 @@
 #pragma once
 #include <deque>
 #include <Arduino.h>
-#include "Frame/Frame.h"
-#include "Frame/FrameData.h"
-#include "Helpers/Timer.h"
-#include "Helpers/Logger.h"
+#include "Frame/Frame.hpp"
+#include "Frame/FrameData.hpp"
+#include "Helpers/Timer.hpp"
+#include "Helpers/Logger.hpp"
 
-namespace dudanov {
-namespace midea {
+namespace depuydt {
+namespace qlima {
 
 enum ApplianceType : uint8_t {
   DEHUMIDIFIER = 0xA1,
@@ -77,7 +77,7 @@ class ApplianceBase {
   }
   AutoconfStatus getAutoconfStatus() const { return this->m_autoconfStatus; }
   void setAutoconf(bool state) { this->m_autoconfStatus = state ? AUTOCONF_PROGRESS : AUTOCONF_DISABLED; }
-  static void setLogger(LoggerFn logger) { dudanov::setLogger(logger); }
+  static void setLogger(LoggerFn logger) { depuydt::setLogger(logger); }
 
  protected:
   std::vector<OnStateCallback> m_stateCallbacks;
@@ -155,5 +155,5 @@ class ApplianceBase {
   uint8_t m_numAttempts{3};
 };
 
-}  // namespace midea
-}  // namespace dudanov
+}  // namespace qlima
+}  // namespace depuydt

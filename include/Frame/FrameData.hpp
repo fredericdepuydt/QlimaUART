@@ -4,7 +4,7 @@
 
 class IPAddress;
 
-namespace dudanov {
+namespace depuydt {
 namespace midea {
 
 class FrameData {
@@ -52,4 +52,4 @@ class NetworkNotifyData : public FrameData {
 };
 
 }  // namespace midea
-}  // namespace dudanov
+}  // namespace depuydt

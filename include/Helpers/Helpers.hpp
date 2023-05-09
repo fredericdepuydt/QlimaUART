@@ -2,7 +2,7 @@
 #include <Arduino.h>
 #include <initializer_list>
 
-namespace dudanov {
+namespace depuydt {
 
 template<typename T>
 class Optional {
@@ -28,4 +28,4 @@ class Optional {
   bool hasValue_{};
 };
 
-}  // namespace dudanov
+}  // namespace depuydt

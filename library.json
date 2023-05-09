@@ -1,19 +1,19 @@
 {
-  "name": "MideaUART",
-  "version": "1.1.8",
-  "description": "A library for controlling Midea home appliances using the UART protocol.",
-  "keywords": "midea, iot, air-conditioner, uart, serial, control, home-automation, electrolux, qlima, comfee, artel",
+  "name": "QlimaUART",
+  "version": "1.0.0",
+  "description": "A library for controlling Qlima home appliances using the UART protocol.",
+  "keywords": "qlima, iot, air-conditioner, uart, serial, control, home-automation, electrolux, qlima, comfee, artel",
   "repository":
   {
     "type": "git",
-    "url": "https://github.com/dudanov/MideaUART.git"
+    "url": "https://github.com/fredericdepuydt/QlimaUART.git"
   },
   "authors":
   [
     {
-      "name": "Sergey Dudanov",
-      "email": "sergey.dudanov@gmail.com",
-      "url": "https://fb.com/dudanov"
+      "name": "Frederic Depuydt",
+      "email": "frederic.depuydt@outlook.com",
+      "url": "https://github.com/fredericdepuydt/"
     }
   ],
   "license": "MIT",

@@ -1,12 +1,12 @@
 #pragma once
 #include <Arduino.h>
-#include "Appliance/ApplianceBase.h"
-#include "Appliance/AirConditioner/Capabilities.h"
-#include "Appliance/AirConditioner/StatusData.h"
-#include "Helpers/Helpers.h"
+#include "Appliance/ApplianceBase.hpp"
+#include "Appliance/AirConditioner/Capabilities.hpp"
+#include "Appliance/AirConditioner/StatusData.hpp"
+#include "Helpers/Helpers.hpp"
 
-namespace dudanov {
-namespace midea {
+namespace depuydt {
+namespace qlima {
 namespace ac {
 
 // Air conditioner control command
@@ -62,5 +62,5 @@ class AirConditioner : public ApplianceBase {
 };
 
 }  // namespace ac
-}  // namespace midea
-}  // namespace dudanov
+}  // namespace qlima
+}  // namespace depuydt

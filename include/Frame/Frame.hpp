@@ -1,11 +1,11 @@
 #pragma once
 #include <Arduino.h>
 #include <vector>
-#include "Frame/FrameData.h"
-#include "Helpers/Helpers.h"
+#include "Frame/FrameData.hpp"
+#include "Helpers/Helpers.hpp"
 
-namespace dudanov {
-namespace midea {
+namespace depuydt {
+namespace qlima {
 
 class Frame {
  public:
@@ -43,5 +43,5 @@ class Frame {
   static const uint8_t OFFSET_DATA = 10;
 };
 
-}  // namespace midea
-}  // namespace dudanov
+}  // namespace qlima
+}  // namespace depuydt

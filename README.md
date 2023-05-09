@@ -1,10 +1,10 @@
-# MideaUART
-Arduino framework library for controlling Midea home appliances using the UART protocol.
+# QlimaUART
+Arduino framework library for controlling Qlima home appliances using the UART protocol.
 
 Control is possible with a custom dongle. You can make it yourself according to numerous instructions on the Internet, or you can buy a ready-made one in [Tindie Shop](https://www.tindie.com/products/24607/), thereby supporting me and my work.
 
 A far from complete list of supported brands:
-1. [Midea](https://www.midea.com/)
+1. [Qlima](https://www.midea.com/)
 2. [Electrolux](https://www.electrolux.ru/)
 3. [Qlima](https://www.qlima.com/)
 4. [Artel](https://www.artelgroup.com/)
@@ -15,7 +15,7 @@ A far from complete list of supported brands:
 
 ## Using
 It's simple.
-1. Create appliance instance of `dudanov::midea::ac::AirConditioner`.
+1. Create appliance instance of `depuydt::midea::ac::AirConditioner`.
 2. Set serial stream interface and communication mode to `9600 8N1`.
 3. Add `setup()` and `loop()` methods to the same-named global functions of the project.
 4. Control device via `void control(const Control &control)` with optional parameters.
@@ -25,7 +25,7 @@ It's simple.
 #include <Arduino.h>
 #include <Appliance/AirConditioner/AirConditioner.h>
 
-using namespace dudanov::midea::ac;
+using namespace depuydt::midea::ac;
 
 AirConditioner ac;
 

@@ -2,8 +2,8 @@
 #include <Arduino.h>
 #include <set>
 
-namespace dudanov {
-namespace midea {
+namespace depuydt {
+namespace qlima {
 
 class FrameData;
 
@@ -112,5 +112,5 @@ class Capabilities {
 };
 
 }  // namespace ac
-}  // namespace midea
-}  // namespace dudanov
+}  // namespace qlima
+}  // namespace depuydt

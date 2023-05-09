@@ -1,6 +1,6 @@
 #include "Appliance/AirConditioner/StatusData.h"
 
-namespace dudanov {
+namespace depuydt {
 namespace midea {
 namespace ac {
 
@@ -99,4 +99,4 @@ float StatusData::getPowerUsage() const {
 
 }  // namespace ac
 }  // namespace midea
-}  // namespace dudanov
+}  // namespace depuydt

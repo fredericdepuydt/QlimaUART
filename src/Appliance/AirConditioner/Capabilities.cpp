@@ -2,7 +2,7 @@
 #include "Frame/FrameData.h"
 #include "Helpers/Log.h"
 
-namespace dudanov {
+namespace depuydt {
 namespace midea {
 namespace ac {
 
@@ -324,4 +324,4 @@ void Capabilities::dump() const {
 
 }  // namespace ac
 }  // namespace midea
-}  // namespace dudanov
+}  // namespace depuydt

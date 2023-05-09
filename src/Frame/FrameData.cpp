@@ -1,7 +1,7 @@
 #include "Frame/FrameData.h"
 #include <IPAddress.h>
 
-namespace dudanov {
+namespace depuydt {
 namespace midea {
 
 uint8_t FrameData::m_id;
@@ -39,4 +39,4 @@ void NetworkNotifyData::setIP(const IPAddress &ip) {
 }
 
 }  // namespace midea
-}  // namespace dudanov
+}  // namespace depuydt

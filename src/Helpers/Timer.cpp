@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #include "Helpers/Timer.h"
 
-namespace dudanov {
+namespace depuydt {
 
 TimerTick TimerManager::s_millis;
 
@@ -17,4 +17,4 @@ void TimerManager::task() {
       timer->call();
 }
 
-}  // namespace dudanov
+}  // namespace depuydt

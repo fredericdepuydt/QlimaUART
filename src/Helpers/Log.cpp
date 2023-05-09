@@ -2,7 +2,7 @@
 #include "Helpers/Logger.h"
 #include "Appliance/ApplianceBase.h"
 
-namespace dudanov {
+namespace depuydt {
 
 LoggerFn logger_;
 void setLogger(LoggerFn logger) { logger_ = logger; }
@@ -25,4 +25,4 @@ void sv_log_printf_(int level, const char *tag, int line, const __FlashStringHel
   va_end(arg);
 }
 
-}  // namespace dudanov
+}  // namespace depuydt

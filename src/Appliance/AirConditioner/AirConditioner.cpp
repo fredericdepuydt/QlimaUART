@@ -2,7 +2,7 @@
 #include "Helpers/Timer.h"
 #include "Helpers/Log.h"
 
-namespace dudanov {
+namespace depuydt {
 namespace midea {
 namespace ac {
 
@@ -225,4 +225,4 @@ ResponseStatus AirConditioner::m_readStatus(FrameData data) {
 
 }  // namespace ac
 }  // namespace midea
-}  // namespace dudanov
+}  // namespace depuydt

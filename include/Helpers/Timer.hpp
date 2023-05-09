@@ -3,7 +3,7 @@
 #include <functional>
 #include <list>
 
-namespace dudanov {
+namespace depuydt {
 
 class Timer;
 using TimerTick = unsigned long;
@@ -44,4 +44,4 @@ class Timer {
 };
 
 
-}  // namespace dudanov
+}  // namespace depuydt
